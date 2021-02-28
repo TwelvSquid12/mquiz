@@ -1,0 +1,435 @@
+html, body 
+{
+	height: 100%;
+	margin: 0px;
+	font-family: 'PressStart2P', sans-serif;
+	color: white;
+  text-align: center;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  transition: all 2s ease;
+}
+
+body { min-height:540px; touch-action: manipulation; }     
+body[orient="portrait"] { min-height:540px; }
+body[orient="landscape"] { min-height:400px; }
+
+html {
+  position: fixed;
+}
+
+input { 
+  text-align: center; 
+  color:#FFCC00;
+}
+
+::placeholder 
+{
+  color: white;
+  opacity: 1;
+  text-align:center;
+}
+
+#landing_page
+{
+  display: block;
+}
+
+#flash
+{
+  position:  fixed;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background-color: white;
+  pointer-events: none;
+  transition: all 0.5s;
+  opacity: 0;
+  z-index:99999;
+}
+
+#BG_bubble
+{
+  position: fixed;
+  width:100%;
+  height:90%;
+
+  bottom:0;
+  left:0;
+  z-index: 2;
+}
+
+@font-face 
+{
+    font-family: "MTN_FONT";
+    src: url("fonts/MTNBrighterSans-ExtraBold.ttf") format("truetype");
+}
+
+
+  
+.labelo
+{
+  position:relative;
+  top:-90px;
+  color:black;
+}
+
+.labelo2
+{
+  position:relative;
+  top:-50px;
+  color:black;
+}
+
+.labelo3
+{
+  color:black;
+}
+
+  
+  .green {
+    background-color: green;
+   }
+   
+   #buttonA
+   {
+      position: relative;
+      
+      background-color:rebeccapurple;
+      border-radius: 15px;
+      opacity:0.9;
+    
+      width:260px;
+      height:50px;
+
+      margin:auto;
+
+      line-height: 50px;
+   }
+
+   #buttonB
+   {
+      position: relative;
+
+      background-color:rebeccapurple;
+      border-radius: 15px;
+      opacity:0.9;
+    
+      width:260px;
+      height:50px;
+
+      margin:auto;
+
+      line-height: 50px;
+   }
+   
+   
+  #buttonC
+  {
+      position: relative;
+
+      background-color:rebeccapurple;
+      border-radius: 15px;
+      opacity:0.9;
+    
+      width:260px;
+      height:50px;
+
+      margin:auto;
+
+      line-height: 50px;
+  }
+  
+#top_section
+{
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:80px;
+  background-color: blueviolet;
+  color:white;
+  line-height: 40px;
+  text-align: center;
+}
+
+  #buttonD
+  {
+    position: relative;
+
+    background-color:rebeccapurple;
+    border-radius: 15px;
+    opacity:0.9;
+  
+    width:260px;
+    height:60px;
+
+    margin:auto;
+
+    line-height: 50px;
+  }
+  
+ 
+  #header_bubble
+  {
+    position: fixed;
+
+    height:70%;
+
+    top:10%;
+    right:0;
+
+    z-index: 3;
+  }
+
+
+  #start_button
+  {
+    position: fixed;
+
+    height:30px;
+
+    line-height: 30px;
+
+    width:50%;
+
+    bottom:25%;
+    left:25%;
+    text-align:center;
+
+    z-index: 4;
+
+    background-color: black;
+
+    border: 4px solid #4195fc; /* some kind of blue border */
+
+    color:#4195fc;
+
+    /* other CSS styles */
+
+    /* round the corners */
+    -webkit-border-radius: 14px;
+       -moz-border-radius: 14px;
+            border-radius: 14px;
+
+
+    /* make it glow! */
+    -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc; /* some variation of blue for the shadow */
+  }
+
+
+
+.STARTBUTTON 
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1080px;
+  height: 1920px;
+  z-index: 13;
+}
+.START {
+  font-size: 133.331px;
+  font-family: "Comfortaa";
+  color: rgb(0, 255, 29);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 0.44978223254325,0,0,0.45000876444892,0,0);
+  -webkit-transform: matrix( 0.44978223254325,0,0,0.45000876444892,0,0);
+  -ms-transform: matrix( 0.44978223254325,0,0,0.45000876444892,0,0);
+  position: absolute;
+  left: 322.877px;
+  top: 1091.001px;
+  z-index: 12;
+}
+.Rounded_Rectangle_1 {
+  border-width: 2.51px;
+  border-color: rgb(0, 255, 30);
+  border-style: solid;
+  position: absolute;
+  left: 305px;
+  top: 1085px;
+  width: 466.98px;
+  height: 164.98px;
+  z-index: 11;
+}
+.Rounded_Rectangle_1_copy {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.6;
+  position: absolute;
+  left: 337px;
+  top: 1115px;
+  width: 407px;
+  height: 109px;
+  z-index: 10;
+}
+.Rounded_Rectangle_1_copy_2 {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.329;
+  position: absolute;
+  left: 322px;
+  top: 1102px;
+  width: 437px;
+  height: 135px;
+  z-index: 9;
+}
+
+  #name_input
+  {
+    position:fixed;
+   
+    z-index: 4;
+
+    left:5%;
+    top:40%;
+
+    background-color:#000000;
+
+    border: 4px solid #4195fc; /* some kind of blue border */
+
+    color:#4195fc;
+
+    opacity:0.7;
+    border-color: black;
+    border-radius: 35px;
+
+    font-size:25px;
+
+    width:90%;
+    height:15%;
+  }
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid green;
+  -webkit-text-fill-color: green;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.intro_text
+{
+  color:white;
+  z-index:90000;
+}
+
+#loginPage
+{
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    display:block;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #232323;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+#userNameInput
+{
+	background-color: transparent;
+	background: url(InputPanel.png) no-repeat;
+	color: black;
+	background-size: 100% 100%;
+	outline: none;
+	text-align: center;
+	width: 400px;
+	height: 60px;
+
+	font-size: 200%;
+	letter-spacing: 3px;
+
+	color: #000000;
+	font-weight: 100;
+}
+
+
+
+#playPage
+{
+    position:fixed;
+
+    display:none;
+
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color:black;
+    background-size: 100%;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#namePanel
+{
+  position: fixed;
+  margin-bottom: 1%;
+  bottom:0;
+  text-align:center;
+  margin-left:32%;
+}
+
+#scorePanel
+{
+  position: relative;
+  text-align: center;
+  color: black;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+}
+
+.centeredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

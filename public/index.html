@@ -1,0 +1,77 @@
+<html>
+
+	<head>
+
+	  <meta name="apple-mobile-web-app-capable" content="yes">
+
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
+
+
+	  <meta name="theme-color" content="#000000" />
+	  <link type="text/css" rel="stylesheet"  href="/controller2.css" />
+
+	  <script src="/socket.io/socket.io.js"></script>
+
+	  <script src="jquery-3.4.1.min.js"></script>
+
+	  <script src="/controller2.js"></script>
+
+	  <meta name="apple-mobile-web-app-capable" content="yes" />
+	</head>
+
+	<body>
+
+		<div id="flash"></div>
+		
+		
+
+		<div id = "loginPage">
+
+			<div id="landing_page">
+				
+				<br><br><br><br>
+				<div class = "intro_text">
+					Welcome to<br>
+					QUIZ SHOW<br>
+					<br>
+				</div>
+
+				<div id = "start_button" onclick="Start()"> START</div>
+
+				<input type="text" id = "name_input" placeholder="ENTER YOUR NAME"><br>
+
+			</div>
+
+		</div>
+
+
+		<div id = "playPage">
+
+			<div id="top_section">
+				
+			</div>
+
+			<br><br> <br><br> <br>
+			
+			
+
+			<div class = "intro_text"  id="mainQ">
+				QUIZ STARTING SOON<br>
+				PLEASE WAIT<br>
+				<br>
+			</div>
+
+			
+			<div id="butt_holder">
+				<div id="buttonA" class="catch"> A </div> <br>
+				<div id="buttonB" class="catch"> B</div> <br>
+
+				<div id="buttonC" class="catch"> C </div> <br>
+				<div id="buttonD" class="catch"> D </div> <br>	 
+			</div>
+
+		</div>	
+		
+	</body>
+
+</html>
